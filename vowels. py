@@ -1,4 +1,4 @@
 user = input ("enter sentence ").lower().strip()
-vowels=("a", "e", "I", "o", "u")
+vowels=("a", "e", "i", "o", "u")
 results=[vowel for vowel in user if vowel in vowels]
 print (results)
