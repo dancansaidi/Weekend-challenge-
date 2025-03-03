@@ -1,0 +1,4 @@
+user = input ("enter sentence ")
+vowels=("a", "e", "I", "o", "u")
+results=[vowel for vowel in user if vowel in vowels]
+print (results)
